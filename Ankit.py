@@ -54,7 +54,7 @@ except Exception:
 
 # -------------------- CONFIG (ENV) --------------------
 BOT_TOKEN = os.getenv("BOT_TOKEN", "8358170716:AAGYA4u7nAvRBNx80rdNi3Fyp2WoSl_fR0A")
-ADMIN_IDS = set(int(x.strip()) for x in os.getenv("ADMIN_IDS", "").split(",") if x.strip())
+ADMIN_IDS = set(int(x.strip()) for x in os.getenv("7399251072", "").split(",") if x.strip())
 PAYMENT_UPI_ID = os.getenv("PAYMENT_UPI_ID", "priyansh563@ybl")
 PAYMENT_NOTE = os.getenv("PAYMENT_NOTE", "StudyBot Premium")
 
