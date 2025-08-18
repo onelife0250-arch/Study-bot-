@@ -53,9 +53,9 @@ except Exception:
     FASTAPI_AVAILABLE = False
 
 # -------------------- CONFIG (ENV) --------------------
-BOT_TOKEN = os.getenv("BOT_TOKEN", "8358170716:AAGYA4u7nAvRBNx80rdNi3Fyp2WoSl_fR0A")
-ADMIN_IDS = set(int(x.strip()) for x in os.getenv("7399251072", "").split(",") if x.strip())
-PAYMENT_UPI_ID = os.getenv("PAYMENT_UPI_ID", "priyansh563@ybl")
+BOT_TOKEN = os.getenv("BOT_TOKEN", "BOT_TOKEN")
+ADMIN_IDS = set(int(x.strip()) for x in os.getenv("ADMIN_IDS", "").split(",") if x.strip())
+PAYMENT_UPI_ID = os.getenv("PAYMENT_UPI_ID", "default@upi")
 PAYMENT_NOTE = os.getenv("PAYMENT_NOTE", "StudyBot Premium")
 
 RAZORPAY_KEY_ID = os.getenv("RAZORPAY_KEY_ID")
